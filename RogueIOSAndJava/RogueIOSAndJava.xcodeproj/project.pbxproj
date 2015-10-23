@@ -15,6 +15,18 @@
 		82538B7A1BC9078A00C8D07E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82538B781BC9078A00C8D07E /* LaunchScreen.storyboard */; };
 		82538B851BC9078A00C8D07E /* RogueIOSAndJavaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82538B841BC9078A00C8D07E /* RogueIOSAndJavaTests.m */; };
 		82538B901BC9078A00C8D07E /* RogueIOSAndJavaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82538B8F1BC9078A00C8D07E /* RogueIOSAndJavaUITests.m */; };
+		827781161BD4872600806733 /* RgBaseWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 827781151BD4872600806733 /* RgBaseWindow.m */; settings = {ASSET_TAGS = (); }; };
+		8277811A1BD4883000806733 /* RgRedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 827781191BD4883000806733 /* RgRedWindow.m */; settings = {ASSET_TAGS = (); }; };
+		8277811D1BD4883C00806733 /* RgBlueWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8277811C1BD4883C00806733 /* RgBlueWindow.m */; settings = {ASSET_TAGS = (); }; };
+		827781201BD4885400806733 /* RgOrangeWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8277811F1BD4885400806733 /* RgOrangeWindow.m */; settings = {ASSET_TAGS = (); }; };
+		827781231BD4886300806733 /* RgGreenWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 827781221BD4886300806733 /* RgGreenWindow.m */; settings = {ASSET_TAGS = (); }; };
+		827781261BD488CF00806733 /* RgTotalWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 827781251BD488CF00806733 /* RgTotalWindow.m */; settings = {ASSET_TAGS = (); }; };
+		8277812A1BD4BA9000806733 /* RgBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827781291BD4BA9000806733 /* RgBaseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8277812D1BD4BAAE00806733 /* RgRedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8277812C1BD4BAAE00806733 /* RgRedViewController.m */; settings = {ASSET_TAGS = (); }; };
+		827781301BD4BABB00806733 /* RgBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8277812F1BD4BABB00806733 /* RgBlueViewController.m */; settings = {ASSET_TAGS = (); }; };
+		827781331BD4BAC500806733 /* RgOrangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827781321BD4BAC500806733 /* RgOrangeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		827781361BD4BACC00806733 /* RgGreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827781351BD4BACC00806733 /* RgGreenViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FC07EC13CE4A28EDAA2ED053 /* libPods-RogueIOSAndJava.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BED5C3BEF863A8233EF2BC4 /* libPods-RogueIOSAndJava.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19139A8784878E099704B41C /* Pods-RogueIOSAndJava.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RogueIOSAndJava.release.xcconfig"; path = "Pods/Target Support Files/Pods-RogueIOSAndJava/Pods-RogueIOSAndJava.release.xcconfig"; sourceTree = "<group>"; };
+		6BED5C3BEF863A8233EF2BC4 /* libPods-RogueIOSAndJava.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RogueIOSAndJava.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82538B671BC9078A00C8D07E /* RogueIOSAndJava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RogueIOSAndJava.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82538B6B1BC9078A00C8D07E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82538B6D1BC9078A00C8D07E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +65,29 @@
 		82538B8B1BC9078A00C8D07E /* RogueIOSAndJavaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RogueIOSAndJavaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82538B8F1BC9078A00C8D07E /* RogueIOSAndJavaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RogueIOSAndJavaUITests.m; sourceTree = "<group>"; };
 		82538B911BC9078A00C8D07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		827781141BD4872600806733 /* RgBaseWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RgBaseWindow.h; sourceTree = "<group>"; };
+		827781151BD4872600806733 /* RgBaseWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RgBaseWindow.m; sourceTree = "<group>"; };
+		827781181BD4883000806733 /* RgRedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RgRedWindow.h; sourceTree = "<group>"; };
+		827781191BD4883000806733 /* RgRedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RgRedWindow.m; sourceTree = "<group>"; };
+		8277811B1BD4883C00806733 /* RgBlueWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RgBlueWindow.h; sourceTree = "<group>"; };
+		8277811C1BD4883C00806733 /* RgBlueWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RgBlueWindow.m; sourceTree = "<group>"; };
+		8277811E1BD4885400806733 /* RgOrangeWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RgOrangeWindow.h; sourceTree = "<group>"; };
+		8277811F1BD4885400806733 /* RgOrangeWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RgOrangeWindow.m; sourceTree = "<group>"; };
+		827781211BD4886300806733 /* RgGreenWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RgGreenWindow.h; sourceTree = "<group>"; };
+		827781221BD4886300806733 /* RgGreenWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RgGreenWindow.m; sourceTree = "<group>"; };
+		827781241BD488CF00806733 /* RgTotalWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RgTotalWindow.h; sourceTree = "<group>"; };
+		827781251BD488CF00806733 /* RgTotalWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RgTotalWindow.m; sourceTree = "<group>"; };
+		827781281BD4BA9000806733 /* RgBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RgBaseViewController.h; sourceTree = "<group>"; };
+		827781291BD4BA9000806733 /* RgBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RgBaseViewController.m; sourceTree = "<group>"; };
+		8277812B1BD4BAAE00806733 /* RgRedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RgRedViewController.h; sourceTree = "<group>"; };
+		8277812C1BD4BAAE00806733 /* RgRedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RgRedViewController.m; sourceTree = "<group>"; };
+		8277812E1BD4BABB00806733 /* RgBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RgBlueViewController.h; sourceTree = "<group>"; };
+		8277812F1BD4BABB00806733 /* RgBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RgBlueViewController.m; sourceTree = "<group>"; };
+		827781311BD4BAC500806733 /* RgOrangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RgOrangeViewController.h; sourceTree = "<group>"; };
+		827781321BD4BAC500806733 /* RgOrangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RgOrangeViewController.m; sourceTree = "<group>"; };
+		827781341BD4BACC00806733 /* RgGreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RgGreenViewController.h; sourceTree = "<group>"; };
+		827781351BD4BACC00806733 /* RgGreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RgGreenViewController.m; sourceTree = "<group>"; };
+		FB498F44A108BADAC7B97FF8 /* Pods-RogueIOSAndJava.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RogueIOSAndJava.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RogueIOSAndJava/Pods-RogueIOSAndJava.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC07EC13CE4A28EDAA2ED053 /* libPods-RogueIOSAndJava.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +116,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E3808FED004EDBC36AEC4D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB498F44A108BADAC7B97FF8 /* Pods-RogueIOSAndJava.debug.xcconfig */,
+				19139A8784878E099704B41C /* Pods-RogueIOSAndJava.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		82538B5E1BC9078A00C8D07E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +132,8 @@
 				82538B831BC9078A00C8D07E /* RogueIOSAndJavaTests */,
 				82538B8E1BC9078A00C8D07E /* RogueIOSAndJavaUITests */,
 				82538B681BC9078A00C8D07E /* Products */,
+				0E3808FED004EDBC36AEC4D4 /* Pods */,
+				EBC445F54BD24E3FA2C99E95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +150,7 @@
 		82538B691BC9078A00C8D07E /* RogueIOSAndJava */ = {
 			isa = PBXGroup;
 			children = (
+				827781101BD486E900806733 /* WindowPage */,
 				82538B6D1BC9078A00C8D07E /* AppDelegate.h */,
 				82538B6E1BC9078A00C8D07E /* AppDelegate.m */,
 				82538B701BC9078A00C8D07E /* ViewController.h */,
@@ -140,6 +190,59 @@
 			path = RogueIOSAndJavaUITests;
 			sourceTree = "<group>";
 		};
+		827781101BD486E900806733 /* WindowPage */ = {
+			isa = PBXGroup;
+			children = (
+				827781271BD4BA6F00806733 /* SubViewController */,
+				827781171BD4874400806733 /* SubWindowPage */,
+				827781141BD4872600806733 /* RgBaseWindow.h */,
+				827781151BD4872600806733 /* RgBaseWindow.m */,
+				827781281BD4BA9000806733 /* RgBaseViewController.h */,
+				827781291BD4BA9000806733 /* RgBaseViewController.m */,
+			);
+			path = WindowPage;
+			sourceTree = "<group>";
+		};
+		827781171BD4874400806733 /* SubWindowPage */ = {
+			isa = PBXGroup;
+			children = (
+				827781181BD4883000806733 /* RgRedWindow.h */,
+				827781191BD4883000806733 /* RgRedWindow.m */,
+				8277811B1BD4883C00806733 /* RgBlueWindow.h */,
+				8277811C1BD4883C00806733 /* RgBlueWindow.m */,
+				8277811E1BD4885400806733 /* RgOrangeWindow.h */,
+				8277811F1BD4885400806733 /* RgOrangeWindow.m */,
+				827781211BD4886300806733 /* RgGreenWindow.h */,
+				827781221BD4886300806733 /* RgGreenWindow.m */,
+				827781241BD488CF00806733 /* RgTotalWindow.h */,
+				827781251BD488CF00806733 /* RgTotalWindow.m */,
+			);
+			path = SubWindowPage;
+			sourceTree = "<group>";
+		};
+		827781271BD4BA6F00806733 /* SubViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8277812B1BD4BAAE00806733 /* RgRedViewController.h */,
+				8277812C1BD4BAAE00806733 /* RgRedViewController.m */,
+				8277812E1BD4BABB00806733 /* RgBlueViewController.h */,
+				8277812F1BD4BABB00806733 /* RgBlueViewController.m */,
+				827781311BD4BAC500806733 /* RgOrangeViewController.h */,
+				827781321BD4BAC500806733 /* RgOrangeViewController.m */,
+				827781341BD4BACC00806733 /* RgGreenViewController.h */,
+				827781351BD4BACC00806733 /* RgGreenViewController.m */,
+			);
+			path = SubViewController;
+			sourceTree = "<group>";
+		};
+		EBC445F54BD24E3FA2C99E95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BED5C3BEF863A8233EF2BC4 /* libPods-RogueIOSAndJava.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82538B941BC9078A00C8D07E /* Build configuration list for PBXNativeTarget "RogueIOSAndJava" */;
 			buildPhases = (
+				3E384ED5DAB327BF2294E4EE /* Check Pods Manifest.lock */,
 				82538B631BC9078A00C8D07E /* Sources */,
 				82538B641BC9078A00C8D07E /* Frameworks */,
 				82538B651BC9078A00C8D07E /* Resources */,
+				82C1D2AFA1E038A53AE73150 /* Copy Pods Resources */,
+				C798BB64B2B402E6ADE85B5A /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,13 +371,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E384ED5DAB327BF2294E4EE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82C1D2AFA1E038A53AE73150 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RogueIOSAndJava/Pods-RogueIOSAndJava-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C798BB64B2B402E6ADE85B5A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RogueIOSAndJava/Pods-RogueIOSAndJava-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		82538B631BC9078A00C8D07E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8277812A1BD4BA9000806733 /* RgBaseViewController.m in Sources */,
+				8277812D1BD4BAAE00806733 /* RgRedViewController.m in Sources */,
 				82538B721BC9078A00C8D07E /* ViewController.m in Sources */,
+				827781261BD488CF00806733 /* RgTotalWindow.m in Sources */,
+				827781161BD4872600806733 /* RgBaseWindow.m in Sources */,
+				8277811A1BD4883000806733 /* RgRedWindow.m in Sources */,
+				827781201BD4885400806733 /* RgOrangeWindow.m in Sources */,
+				827781231BD4886300806733 /* RgGreenWindow.m in Sources */,
 				82538B6F1BC9078A00C8D07E /* AppDelegate.m in Sources */,
+				827781331BD4BAC500806733 /* RgOrangeViewController.m in Sources */,
+				827781301BD4BABB00806733 /* RgBlueViewController.m in Sources */,
+				827781361BD4BACC00806733 /* RgGreenViewController.m in Sources */,
+				8277811D1BD4883C00806733 /* RgBlueWindow.m in Sources */,
 				82538B6C1BC9078A00C8D07E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +576,7 @@
 		};
 		82538B951BC9078A00C8D07E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB498F44A108BADAC7B97FF8 /* Pods-RogueIOSAndJava.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RogueIOSAndJava/Info.plist;
@@ -422,6 +588,7 @@
 		};
 		82538B961BC9078A00C8D07E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19139A8784878E099704B41C /* Pods-RogueIOSAndJava.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RogueIOSAndJava/Info.plist;
@@ -498,6 +665,7 @@
 				82538B961BC9078A00C8D07E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82538B971BC9078A00C8D07E /* Build configuration list for PBXNativeTarget "RogueIOSAndJavaTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +674,7 @@
 				82538B991BC9078A00C8D07E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82538B9A1BC9078A00C8D07E /* Build configuration list for PBXNativeTarget "RogueIOSAndJavaUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +683,7 @@
 				82538B9C1BC9078A00C8D07E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

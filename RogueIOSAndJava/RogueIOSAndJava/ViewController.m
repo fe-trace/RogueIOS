@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "RgTotalWindow.h"
+#import "RgGreenWindow.h"
 
 @interface ViewController ()
 
@@ -14,9 +16,17 @@
 
 @implementation ViewController
 
+- (void)viewWillAppear:(BOOL)animated {
+
+    [super viewWillAppear:animated];
+    
+    [RgTotalWindow showRedWindowWithAnimation:YES isNeedShowBlock:YES];
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
